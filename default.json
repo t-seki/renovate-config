@@ -20,7 +20,7 @@
     },
     {
       "description": "best-practices が出す pin / digest 更新も自動マージ(CI通過が条件)",
-      "matchUpdateTypes": ["pin", "digest"],
+      "matchUpdateTypes": ["pin", "pinDigest", "digest"],
       "automerge": true,
       "platformAutomerge": true
     },
